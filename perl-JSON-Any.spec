@@ -1,7 +1,7 @@
 %define module	JSON-Any
 %define name	perl-%{module}
 %define version	1.04
-%define release	%mkrel 1
+%define release	%mkrel 0.1
 
 Name:		%{name}
 Version:	%{version}
@@ -13,6 +13,7 @@ Source:		http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.
 Url:		http://search.cpan.org/dist/%{module}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	perl-devel
+Buildrequires:	perl(JSON)
 
 Buildarch:	noarch
 
