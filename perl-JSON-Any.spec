@@ -1,7 +1,7 @@
 %define module	JSON-Any
 %define name	perl-%{module}
 %define version	1.04
-%define release	%mkrel 0.1
+%define release	%mkrel 0.2
 
 Name:		%{name}
 Version:	%{version}
