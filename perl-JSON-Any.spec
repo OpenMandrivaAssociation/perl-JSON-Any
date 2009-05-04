@@ -1,7 +1,7 @@
 %define module	JSON-Any
 %define name	perl-%{module}
-%define version	1.04
-%define release	%mkrel 0.2
+%define version	1.19
+%define release	%mkrel 0.1
 
 Name:		%{name}
 Version:	%{version}
@@ -9,13 +9,13 @@ Release:	%{release}
 Summary:	Wrapper Class for the various JSON classes
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Buildrequires:	perl-devel
+Source:     http://www.cpan.org/modules/by-module/JSON/%{module}-%{version}.tar.gz
 Buildrequires:	perl(JSON)
-
+Buildrequires:	perl(JSON::XS)
+Buildrequires:	perl(JSON::DWIW)
 Buildarch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module will provide a coherent API to bring together the various JSON
