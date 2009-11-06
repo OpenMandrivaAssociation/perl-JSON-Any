@@ -1,5 +1,5 @@
-%define upstream_name	    JSON-Any
-%define upstream_version	1.21
+%define upstream_name	 JSON-Any
+%define upstream_version 1.22
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -12,8 +12,9 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/JSON/%{upstream_name}-%{upstream_version}.tar.gz
 
 Buildrequires:	perl(JSON)
-Buildrequires:	perl(JSON::XS)
 Buildrequires:	perl(JSON::DWIW)
+Buildrequires:	perl(JSON::XS)
+
 Buildarch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
