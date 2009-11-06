@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/JSON/%{upstream_name}-%{upstre
 
 Buildrequires:	perl(JSON)
 Buildrequires:	perl(JSON::DWIW)
+Buildrequires:	perl(JSON::Syck)
 Buildrequires:	perl(JSON::XS)
 
 Buildarch: noarch
