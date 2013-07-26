@@ -1,15 +1,15 @@
 %define upstream_name	 JSON-Any
-%define upstream_version 1.29
+%define upstream_version 1.30
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.30
+Release:	1
 
 Summary:	Wrapper Class for the various JSON classes
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/JSON/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/JSON/JSON-Any-1.30.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(JSON)
@@ -99,4 +99,5 @@ make test
 - buildrequires
 - 1.04
 - Create perl-JSON-Any
+
 
