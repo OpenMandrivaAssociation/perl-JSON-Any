@@ -1,4 +1,5 @@
 removed_sources:
   JSON-Any-1.29.tar.gz: d99f61d0315ec2e581bc9e9ea673a2ade1cf2e29
-sources:
   JSON-Any-1.30.tar.gz: 2109213e13b14e7b44a2301eeb51262067ee63a5
+sources:
+  JSON-Any-1.31.tar.gz: fc1107ff6a10c2455ab5a6d1e17c17125c75de06
